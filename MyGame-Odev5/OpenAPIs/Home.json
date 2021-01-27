@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <base href="https://tckimlik.nvi.gov.tr/" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Online Sorgulamalar - Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü</title>
+    <link href="/Content/css?v=5A54CKAf9QKdn3qH4Zj1YwKMw9XP0WZn3hgNaM436WE1" rel="stylesheet"/>
+
+    <link href="/Content/keyboard.css" rel="stylesheet"/>
+
+    <!--[if IE]>
+        <link href="/Content/Site-ie.css" rel="stylesheet"/>
+
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="/Content/js/html5shiv.min.js"></script>
+
+    <![endif]-->
+    <script src="/Content/js/site.js"></script>
+
+    <script>
+        var recaptchaOptions = {
+            isGoogleRecaptcha : true,
+            reCaptchaPrivateKey : '6LePzCgTAAAAABbPy7a8i_oWXKzfDy8pMPAYyWhY',
+            reCaptchaPublicKey: '6LePzCgTAAAAAOTqDwZtYAmxo9huA3jAwwLZMdME',
+        };
+    </script>
+</head>
+<body>
+    <div class="body-content">
+        
+<master>
+    <style>
+        master {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-transform: uppercase;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, sans-serif;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        }
+
+        body {
+            background: #CE0000;
+            margin: 0;
+            padding: 0;
+            color: #FFFFFF;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            background-color: #FFFFFF;
+            margin: 100px auto;
+            -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+            animation: sk-rotateplane 1.2s infinite ease-in-out;
+        }
+
+        @-webkit-keyframes sk-rotateplane {
+            0% {
+                -webkit-transform: perspective(120px)
+            }
+
+            50% {
+                -webkit-transform: perspective(120px) rotateY(180deg)
+            }
+
+            100% {
+                -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+            }
+        }
+
+        @keyframes sk-rotateplane {
+            0% {
+                transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+                -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+            }
+
+            50% {
+                transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+                -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+            }
+
+            100% {
+                transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+            }
+        }
+    </style>
+    <center><div class="spinner"></div></center>
+</master>
+    </div>
+
+    <script src="/Scripts/dist/polyfills.bundle.js"></script>
+
+    <script src="/Scripts/dist/vendor.bundle.js"></script>
+
+    <script src="/Scripts/dist/app.bundle.js"></script>
+
+    
+</body>
+</html>
